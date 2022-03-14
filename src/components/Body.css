@@ -1,0 +1,45 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.body_chip {
+    position: fixed;
+    top: 64px;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 50;
+}
+
+.body_chip > hr {
+    margin-top: 7px;
+    /* color: green; */
+}
+
+.chip_list {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    margin-right: 20%;
+    margin-left: 48px;
+    scroll-behavior: smooth;
+    z-index: 999px;
+
+}
+
+.chip_list::-webkit-scrollbar {
+    display: none;
+}
+
+.body_video {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-top: 130px;
+    background-color: rgb(248, 248, 248);
+    padding-left: 22px;
+    padding-right: 22px;
+}

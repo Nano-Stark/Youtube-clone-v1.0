@@ -1,0 +1,80 @@
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    /* top: 0; */
+    z-index: 50;
+}
+
+.header > hr {
+    /* border: 1px; */
+    margin-top: 7px;
+    /* border-color: green; */
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    justify-content: space-between;
+}
+
+.header_left > img {
+    height: 36px;
+    object-fit: contain;
+    padding-left: 12px;
+}
+
+.header_center {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* flex: 0.55; */
+    /* background-color: green; */
+}
+
+.header_center > .MuiSvgIcon-root {
+    padding-left: 10px;
+}
+
+.header_search  {
+    display: flex;
+    align-items: center;
+    /* flex: 1; */
+    margin-right: 15px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.header_search > input {
+    width: 100%;
+    outline-width: 0;
+    padding: 10px;
+    border: 0;
+    border-right: 1px solid gray;
+}
+
+.header_search > .MuiSvgIcon-root {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    /* padding-left: 14px; */
+    justify-content: space-between;
+    width: 10%;
+    /* flex: 0.2; */
+}
+
